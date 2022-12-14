@@ -14,3 +14,5 @@ test('goodbye endpoint', async () => {
   const response = await request.get('/goodbye');
   expect(response.text).toBe('Nailed it!');
 });
+
+//investigating a gituation: file change
