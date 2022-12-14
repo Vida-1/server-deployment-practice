@@ -4,8 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "lint": "prettier --check src/ && eslint src/",
     "test": "jest",
     "start": "node src/index.js"
+
   },
   "repository": {
     "type": "git",
